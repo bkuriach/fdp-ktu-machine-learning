@@ -52,7 +52,7 @@ column_sums = np.sum(matrix, axis=0)
 print(column_sums)  # Output: array([12, 15, 18])
 
 
-# Sum the matrix column-wise.
+# Sum the matrix Row-wise.
 row_sums = np.sum(matrix, axis=1)
 print(row_sums)  # Output: array([ 6, 15, 24])
 
